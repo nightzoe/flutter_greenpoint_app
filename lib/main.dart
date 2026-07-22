@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'theme/app_theme.dart';
-import 'pages/home_page.dart';
+import 'pages/auth/welcome_page.dart';
 
 void main() {
   runApp(const GreenPointApp());
@@ -15,7 +15,7 @@ class GreenPointApp extends StatelessWidget {
       title: 'GreenPoint',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const HomePage(),
+      home: const WelcomePage(),
     );
   }
 }
